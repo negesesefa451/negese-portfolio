@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Negese Asefa - Front-end Developer portfolio. Web design, projects, and skills showcase.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negese Portfolio</title>
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+  </div>
+
+  <!-- HOME SECTION -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>NEGESE ASEFA</h1>
+      <h2>I am: <span id="typing"></span></h2>
+      <p>
+        I'm a Web Designer with a creative gift.<br>
+        My creative gift is to create and design websites, and I enjoy learning
+        new technology, solving problems, and focusing on designing and
+        developing real-world projects.
+      </p>
+      <div class="home-sci">
+        <a href="https://facebook.com/biqilaa.tolaa" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://youtube.com/@yourchannel" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://github.com/Negese" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://t.me/na4jesus" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="nage.jpg" alt="My profile" />
+      </div>
+      <div class="about-text">
+        <h3>
+          Hello, I'm Negese Asefa, an Information Science University Student (BSc).<br>
+          I will graduate by 2026.
+        </h3>
+        <p>
+          I am a passionate and dedicated developer with a strong interest in
+          creating efficient, user-friendly, and visually appealing applications.
+          I enjoy working on web development projects, solving coding challenges,
+          and continuously learning new technologies to improve my skills.
+        </p>
+        <p>
+          My goal is to become a full-stack developer and contribute to impactful
+          projects that make technology more accessible and enjoyable for everyone.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills-section">
+    <h2>My Skills</h2>
+    <p class="skills-intro">
+      Here are my technical and social skills that help me grow as a developer and team player.
+    </p>
+
+    <div class="skills-buttons">
+      <button class="skill-btn active" id="techBtn">Technical Skills</button>
+      <button class="skill-btn" id="socialBtn">Social Skills</button>
+    </div>
+
+    <div class="skills-container">
+      <!-- Technical Skills -->
+      <div class="skills-list" id="technical-skills">
+        <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+        <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+        <div class="skill-card"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+        <div class="skill-card"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+        <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+        <div class="skill-card"><i class="fa-solid fa-code"></i><span>C++ </span></div>
+      </div>
+
+      <!-- Social Skills -->
+      <div class="skills-list hidden" id="social-skills">
+        <div class="skill-card"><i class="fa-solid fa-users"></i><span>Teamwork</span></div>
+        <div class="skill-card"><i class="fa-solid fa-comments"></i><span>Communication</span></div>
+        <div class="skill-card"><i class="fa-solid fa-lightbulb"></i><span>Problem Solving</span></div>
+        <div class="skill-card"><i class="fa-solid fa-handshake"></i><span>Leadership</span></div>
+        <div class="skill-card"><i class="fa-solid fa-clock"></i><span>Time Management</span></div>
+        <div class="skill-card"><i class="fa-solid fa-face-smile"></i><span>Adaptability</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <i class="fa-solid fa-utensils project-icon"></i>
+      <h3>Online Food Delivery System</h3>
+      <p>
+        Built an <strong>Online Food Delivery System</strong> using
+        <strong>Object-Oriented Programming (OOP)</strong>. The system allows
+        users to browse menus, place orders, and track deliveries efficiently.
+        Includes features like user authentication and payment integration.
+      </p>
+      <a href="#" class="project-btn">View Details</a>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-building-columns project-icon"></i>
+      <h3>Bank Management System</h3>
+      <p>
+        Developed a <strong>Bank Management System</strong> connected to a
+        <strong>database</strong> for customer records, transactions, and account
+        management. Implemented CRUD operations and secure data handling.
+      </p>
+      <a href="#" class="project-btn">View Details</a>
+    </div>
+
+    <div class="project">
+      <i class="fa-solid fa-laptop-code project-icon"></i>
+      <h3>Personal Portfolio Website</h3>
+      <p>
+        Designed and built a <strong>responsive portfolio website</strong> using
+        <strong>HTML, CSS, and JavaScript</strong>. Includes smooth scrolling, a
+        contact form, and a clean modern layout to showcase my work.
+      </p>
+      <a href="#" class="project-btn">View Details</a>
+    </div>
+  </section>
+
+  <!-- CONTACT INFO SECTION -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p><i class="fa-solid fa-envelope"></i> 
+        <a href="mailto:asefanegese451@gmail.com">asefanegese451@gmail.com</a>
+      </p>
+      <p><i class="fa-solid fa-phone"></i> 
+        <a href="tel:+251908777982">09087777982</a>
+      </p>
+      <p><i class="fa-brands fa-telegram"></i> 
+        <a href="https://t.me/na4jesus" target="_blank">@na4jesus</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- SCRIPTS -->
+  <script>
+    const techBtn = document.getElementById("techBtn");
+    const socialBtn = document.getElementById("socialBtn");
+    const techSkills = document.getElementById("technical-skills");
+    const socialSkills = document.getElementById("social-skills");
+
+    techBtn.addEventListener("click", () => {
+      techBtn.classList.add("active");
+      socialBtn.classList.remove("active");
+      techSkills.classList.remove("hidden");
+      socialSkills.classList.add("hidden");
+    });
+
+    socialBtn.addEventListener("click", () => {
+      socialBtn.classList.add("active");
+      techBtn.classList.remove("active");
+      socialSkills.classList.remove("hidden");
+      techSkills.classList.add("hidden");
+    });
+
+    var typed = new Typed("#typing", {
+      strings: ["Front-end Developer", "UI/UX Designer", "Web Designer", "Programmer"],
+      typeSpeed: 70,
+      backSpeed: 50,
+      backDelay: 1200,
+      loop: true
+    });
+  </script>
+
+  <!-- External JS file (optional) -->
+  <script src="script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
